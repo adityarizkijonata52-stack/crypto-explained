@@ -1,0 +1,198 @@
+<!doctype html>
+
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apa itu Crypto? — Bitcoin, Blockchain & Satoshi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg1:#0b0010; /* near-black */
+      --bg2:#1b0030; /* deep purple */
+      --accent:#9b5cff; /* purple accent */
+      --muted:#b9a6ff88;
+      --card:#0f0714;
+      --glass: rgba(255,255,255,0.03);
+      --radius:14px;
+      color-scheme: dark;
+    }
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;background:linear-gradient(135deg,var(--bg1),var(--bg2));color:#e8def8}
+    .container{max-width:1100px;margin:36px auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#5a2b9a);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:20px;box-shadow:0 6px 24px rgba(155,92,255,0.18)}
+    h1{margin:0;font-size:22px}
+    p.lead{margin:6px 0 0;color:var(--muted)}nav{display:flex;gap:10px}
+nav a{padding:10px 12px;border-radius:10px;text-decoration:none;color:var(--muted);font-weight:600}
+nav a:hover{color:#fff;background:rgba(155,92,255,0.06)}
+
+main{display:grid;grid-template-columns:1fr 320px;gap:26px;margin-top:28px}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:var(--radius);padding:22px;box-shadow: 0 8px 30px rgba(2,2,6,0.6);}
+article h2{margin-top:0;color:#fff}
+.muted{color:var(--muted)}
+.toc{position:sticky;top:28px}
+.chip{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--glass);font-weight:600;margin:6px 6px 6px 0}
+
+.pros, .cons{display:flex;flex-direction:column;gap:10px;margin-top:10px}
+.pros .item, .cons .item{padding:12px;border-radius:10px;background:linear-gradient(90deg, rgba(155,92,255,0.06), rgba(0,0,0,0.12));}
+.footnote{font-size:13px;color:var(--muted);margin-top:18px}
+
+footer{margin-top:28px;padding:18px;border-radius:12px;background:rgba(255,255,255,0.02);display:flex;justify-content:space-between;align-items:center}
+
+/* responsive */
+@media (max-width:900px){main{grid-template-columns:1fr;}.toc{position:static;margin-top:12px}}
+
+/* code block */
+pre{background:#0b0212;border-radius:10px;padding:14px;overflow:auto;color:#dcd6ff}
+
+.hero-banner{padding:22px;border-radius:16px;background:linear-gradient(90deg, rgba(155,92,255,0.08), rgba(80,20,140,0.04));display:flex;gap:18px;align-items:center}
+.hero-banner .emoji{font-size:40px}
+
+.cta{display:inline-block;margin-top:8px;padding:10px 14px;border-radius:12px;background:linear-gradient(90deg,var(--accent),#6b3aff);color:#0b0010;font-weight:700;text-decoration:none}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">₿</div>
+        <div>
+          <h1>Apa itu Crypto? — Bitcoin, Blockchain & Satoshi</h1>
+          <p class="lead">Panduan singkat: konsep, keuntungan & kekurangan, dan profil Satoshi Nakamoto.</p>
+h        </div> 
+      </div>
+      <nav>
+        <a href="#crypto">Crypto</a>
+        <a href="#bitcoin">Bitcoin</a>
+        <a href="#blockchain">Blockchain</a>
+        <a href="#proscons">Kelebihan & Kekurangan</a>
+        <a href="#satoshi">Satoshi</a>
+      </nav>
+    </header><main>
+  <section>
+    <div class="card hero-banner">
+      <div class="emoji">🪙</div>
+      <div>
+        <h2>Ringkasan singkat</h2>
+        <p class="muted">Crypto adalah keluarga aset digital yang memakai kriptografi untuk mengamankan transaksi. Situs ini menjelaskan Bitcoin sebagai contoh paling terkenal, bagaimana teknologi blockchain bekerja, serta pro dan kontra yang umum dibahas.</p>
+        <a class="cta" href="#crypto">Mulai Membaca</a>
+      </div>
+    </div>
+
+    <article id="crypto" class="card" style="margin-top:18px">
+      <h2>Apa itu Crypto?</h2>
+      <p>"Crypto" singkatan dari <strong>cryptocurrency</strong> — aset digital yang menggunakan teknik kriptografi untuk mengamankan transaksi, mengontrol penciptaan unit baru, dan memverifikasi transfer. Crypto bisa dipakai untuk pembayaran, penyimpanan nilai, tokenisasi aset, sampai kontrak pintar (smart contracts).</p>
+      <p class="muted">Contoh: Bitcoin, Ethereum, dan ribuan token lain.</p>
+    </article>
+
+    <article id="bitcoin" class="card" style="margin-top:18px">
+      <h2>Bitcoin — Apa itu?</h2>
+      <p>Bitcoin adalah cryptocurrency pertama yang diperkenalkan pada tahun 2008 melalui whitepaper berjudul "Bitcoin: A Peer-to-Peer Electronic Cash System". Bitcoin dirancang sebagai uang digital terdesentralisasi: tidak dikontrol oleh bank sentral atau pemerintah, dan memungkinkan pengiriman nilai antar pihak tanpa perantara.</p>
+      <p class="muted">Bitcoin sering disebut "emas digital" karena pasokan terbatasnya (21 juta koin).</p>
+
+      <h3>Fitur utama</h3>
+      <ul>
+        <li>Pasokan maksimum: 21.000.000 BTC.</li>
+        <li>Transaksi tercatat pada blockchain publik.</li>
+        <li>Mining: proses memvalidasi blok baru dengan proof-of-work (energi-komputasi).</li>
+      </ul>
+    </article>
+
+    <article id="blockchain" class="card" style="margin-top:18px">
+      <h2>Bagaimana Sistem Blockchain Bekerja?</h2>
+      <p>Blockchain adalah buku besar (ledger) terdistribusi yang merekam transaksi dalam blok-blok yang terhubung secara berurutan. Setelah sebuah blok dipublikasikan dan dikonfirmasi, hampir mustahil untuk mengubahnya tanpa konsensus jaringan.</p>
+
+      <h3>Komponen inti</h3>
+      <ul>
+        <li><strong>Blok:</strong> paket transaksi yang berisi daftar transaksi, timestamp, dan hash blok sebelumnya.</li>
+        <li><strong>Hash kriptografis:</strong> fungsi satu-arah yang menghubungkan blok agar integritas terjaga.</li>
+        <li><strong>Konsensus:</strong> aturan jaringan untuk setuju pada keadaan ledger (contoh: Proof-of-Work, Proof-of-Stake).</li>
+        <li><strong>Node:</strong> komputer yang menjalankan perangkat lunak dan menyimpan salinan blockchain.</li>
+      </ul>
+
+      <h3>Contoh singkat (sederhana)</h3>
+      <pre>&lt;blok n&gt; --&gt; hash(&lt;blok n&gt; + transaksi) --&gt; &lt;blok n+1&gt;</pre>
+      <p class="muted">Jika isi blok berubah, hash berubah dan hubungan ke blok berikutnya rusak — itulah alasan keamanan blockchain.</p>
+    </article>
+
+    <article id="proscons" class="card" style="margin-top:18px">
+      <h2>Keuntungan & Kekurangan</h2>
+
+      <div style="display:flex;gap:18px;flex-wrap:wrap">
+        <div style="flex:1;min-width:220px">
+          <h3>Keuntungan</h3>
+          <div class="pros">
+            <div class="item"><strong>Desentralisasi:</strong> tidak bergantung pada satu entitas pengendali.</div>
+            <div class="item"><strong>Transparansi:</strong> transaksi dapat diaudit di blockchain publik.</div>
+            <div class="item"><strong>Akses global:</strong> siapa pun dengan internet dapat ikut serta.</div>
+            <div class="item"><strong>Inovasi:</strong> smart contracts, tokenisasi aset, DeFi, dsb.</div>
+          </div>
+        </div>
+
+        <div style="flex:1;min-width:220px">
+          <h3>Kekurangan</h3>
+          <div class="cons">
+            <div class="item"><strong>Volatilitas:</strong> harga crypto bisa sangat fluktuatif.</div>
+            <div class="item"><strong>Skalabilitas:</strong> beberapa blockchain lambat atau mahal saat padat.</div>
+            <div class="item"><strong>Keamanan pengguna:</strong> kehilangan private key berarti kehilangan aset.</div>
+            <div class="item"><strong>Regulasi:</strong> ketidakpastian aturan di berbagai negara.</div>
+          </div>
+        </div>
+      </div>
+
+      <p class="footnote">Catatan: daftar di atas bukan saran investasi. Selalu lakukan riset (DYOR) sebelum berinvestasi.</p>
+    </article>
+
+    <article id="satoshi" class="card" style="margin-top:18px">
+      <h2>Siapa Satoshi Nakamoto?</h2>
+      <p>Satoshi Nakamoto adalah nama penulis atau kelompok yang menerbitkan whitepaper Bitcoin pada 2008 dan merilis perangkat lunak Bitcoin pertama pada 2009. Identitas asli Satoshi belum terkonfirmasi secara publik; ada banyak spekulasi dan klaim, tetapi tidak ada konfirmasi tegas.</p>
+      <p class="muted">Satoshi dikenal juga karena menambang blok genesis Bitcoin dan diyakini memiliki sejumlah besar BTC awal—tetapi ia menghilang dari forum publik pada sekitar 2010.</p>
+    </article>
+
+    <footer class="card">
+      <div>Website sederhana ini dibuat untuk edukasi. Konten dirangkum &amp; disederhanakan.</div>
+      <div class="muted">Terakhir diperbarui: 31 Oktober 2025</div>
+    </footer>
+  </section>
+
+  <aside class="toc card">
+    <h3>Ringkasan</h3>
+    <div class="chip">Crypto</div>
+    <div class="chip">Bitcoin</div>
+    <div class="chip">Blockchain</div>
+    <div class="chip">Kelebihan</div>
+    <div class="chip">Kekurangan</div>
+    <div style="margin-top:14px">
+      <h4>Quick facts</h4>
+      <ul class="muted">
+        <li>Bitcoin: 21 juta unit</li>
+        <li>Teknologi: ledger terdesentralisasi</li>
+        <li>Satoshi: identitas tak terkonfirmasi</li>
+      </ul>
+    </div>
+
+    <div style="margin-top:14px">
+      <h4>Ingin hosting?</h4>
+      <p class="muted">Simpan file ini sebagai <code>crypto_explained.html</code> lalu buka di browser. Untuk online: upload ke GitHub Pages, Netlify, atau host statis lainnya.</p>
+    </div>
+  </aside>
+</main>
+
+  </div>  <script>
+    // smooth scroll for nav
+    document.querySelectorAll('nav a, .cta').forEach(el=>{
+      el.addEventListener('click', e=>{
+        const href = el.getAttribute('href')
+        if(href && href.startsWith('#')){
+          e.preventDefault();
+          const target = document.querySelector(href);
+          if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
+        }
+      })
+    })
+  </script></body>
+</html>
